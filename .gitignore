@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Next.js
+.next/
+out/                 # next export
+
+# Build artifacts
+dist/
+build/
+*.tsbuildinfo
+.eslintcache
+.stylelintcache
+
+# Test coverage
+coverage/
+
+# Environment variables (use Vercel envs)
+.env
+.env.*
+!.env.example
+
+# Vercel (local project config and build output from `vercel build`)
+.vercel/
+
+# Turbopack / Turborepo cache (safe to ignore if not used)
+.turbo/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+env/
